@@ -30,9 +30,7 @@
 .subscribe__button {
     @extend %button;
 
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    @include custom-flex (inline-flex);
 
     min-width: auto;
     padding: 10px 28px 10px 28px;

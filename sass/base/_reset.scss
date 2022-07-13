@@ -44,3 +44,8 @@ img {
 address {
     font-style: normal;
 }
+
+/* Свойства для запрета изменения размера поля ввода текса в форме */
+textarea {
+    resize: none;
+}

@@ -1,7 +1,6 @@
 .client-card {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+
+    @include custom-flex;
 
     width: 170px;
     height: 92px;
@@ -10,7 +9,8 @@
     border-radius: 4px;
 
     fill: var(--social-networks-logo-color);
-    transition: fill var(--animate-time-function), border var(--animate-time-function);
+    transition: fill var(--animate-time-function),
+                border var(--animate-time-function);
 
 
     &:hover,

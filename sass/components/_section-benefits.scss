@@ -4,9 +4,8 @@
 
 
 .benefits__thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+  @include custom-flex;
 
   margin-bottom: 30px;
   height: 120px;
