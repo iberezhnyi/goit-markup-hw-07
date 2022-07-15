@@ -1,9 +1,11 @@
 @import './utils/vars';
 @import './utils/placeholders';
 @import './utils/mixins';
+
 @import './base/normalize';
 @import './base/reset';
 @import './base/common';
+
 @import './components/block-card-set';
 @import './components/block-nav';
 @import './components/block-logo';
@@ -15,11 +17,12 @@
 @import './components/block-portfolio-card';
 @import './components/block-backdrop';
 @import './components/block-modal';
-@import './components/section-header';
-@import './components/section-hero';
-@import './components/section-benefits';
-@import './components/section-workig';
-@import './components/section-team';
-@import './components/section-our-clients';
-@import './components/section-footer';
-@import './components/section-portfolio';
+
+@import './layout/section-header';
+@import './layout/section-hero';
+@import './layout/section-benefits';
+@import './layout/section-workig';
+@import './layout/section-team';
+@import './layout/section-our-clients';
+@import './layout/section-footer';
+@import './layout/section-portfolio';
